@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="./assets/style.css"/>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,18 +11,18 @@
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <img src="./assets/bowtie-cat.png" alt="Profile image of a cartoon cat wearing a bow tie." />
     </header>
 
     <main>
       <h2>Contents:</h2>
-     <ol>
-      <a href="#html">HTML</a>
-      <a href="#css">CSS</a>
-      <a href="#git">Git</a>
-      <a href="#java">JavaScript</a>
-      <a href="#cli">CLI Commands</a>
-     </ol>
+     <ul>
+      <li><a href="#html">HTML</a></li>
+      <li><a href="#css">CSS</a></li>
+      <li><a href="#git">Git</a></li>
+      <li><a href="#java">JavaScript</a></li>
+      <li><a href="#cli">CLI Commands</a></li>
+     </ul>
      
      <section class="card" id="html">
       <h2>HTML</h2>
@@ -35,9 +36,14 @@
      <section class="card" id="css">
       <h2>CSS</h2>
       <ul>
-        <li>notes</li>
-        <li>notes</li>
-        <li>notes</li>
+        <li>The [style] attribute may be used to change the color of a single line.</li>
+        <li>The [style] element can be used in the [head] element to style multiple elements. This is called an internal style sheet.</li>
+        <li>An external style sheet is preferred for ease in design changes.</li>
+        <li>[margin] acts like a margin like in a word document.</li>
+        <li>[padding] adds space around the content inside an element.</li>
+        <li>Sectors can be combined into a single rule using a comma. This helps write Do Not Repeat Yourself (DRY) code.</li>
+        <li>A margin indicates how much space we want around the outside of an element.</li>
+        <li>A padding indicates how much space we want around the content inside an element.</li>
       </ul>
      </section>
     
@@ -61,7 +67,7 @@
      
      <section class="card" id="cli">
       <h2>CLI Commands:</h2>
-      <h4>Git Commands:</h4>
+      <h3>Git Commands:</h3>
       <ul>
         <li>git init: creates a new local repo</li>
         <li>git status: lists new or unmodified files</li>
@@ -73,7 +79,7 @@
         <li>git push [remote] [branch]: push commited changes to a remote repository</li>
         <li>git pull [remote] [branch]: fetch remote version of a branch and update local branch</li>
       </ul>
-      <h4>Other Commands:</h4>
+      <h3>Other Commands:</h3>
       <ul>
         <li>code: opens visual studio code (combine with git commands to open specific repository)</li>
         <li>pwd: check where in the directory you are</li>
